@@ -1,0 +1,122 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for the Avada customized for Austin Property Team
+Author: Jonathan Crain - Rio Blanco Design  www.rioblancodesign.com
+Template: Avada
+*/
+
+/*@import url("../Avada/style.css");*/
+
+/* =Reset
+
+/*
+
+-------------------------------------------------------------- */
+.page-title-container {
+    background-position: top right !important;
+}
+
+
+.fusion-column h2 {
+    text-transform: uppercase;
+}
+.first-letter {
+    color: black;
+    font-size: 115%;
+}
+.header-v4 #header {
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+    border-bottom-color: #acbac7 !important;
+}
+.home .header-v4 {
+    height: 19em;
+}
+
+/* center navigation */
+
+.header-v4 #nav {
+    float: none !important;
+}
+.header-v4 #nav > ul {
+    float: none !important;
+    text-align: center !important;
+}
+.header-v4 #nav > ul > li,
+.header-v4 #nav > ul > li > a {
+    float: none !important;
+    display: inline-block !important;
+}
+.header-v4 #nav > ul ul {
+    text-align: left !important;
+}
+/* End center navigation */
+
+.header-v4 .header-social .alignleft,
+.header-v4 .header-social .alignleft a,
+.header-v4 .header-social .alignright,
+.header-v4 .header-social .alignright a {
+    color: #797c7e !important;
+}
+#wrapper .header-social .header-info,
+#wrapper .header-social a {
+    color: #797c7e !important;
+}
+#wrapper .header-social .header-info,
+#wrapper .header-social a:hover {
+    color: #000 !important;
+}
+.header-v4 #header #header-banner {
+    margin-top: 40px !important;
+    display: block !important;
+}
+/******* FadeIn Tagline ********/
+
+span.invest {
+    font-size: 24px;
+    font-family: "Antic Slab", Arial, Helvetica, sans-serif !important;
+    opacity: 0;
+}
+span.lease {
+    font-size: 24px;
+    font-family: "Antic Slab", Arial, Helvetica, sans-serif !important;
+    opacity: 0;
+}
+span.manage {
+    font-size: 24px;
+    font-family: "Antic Slab", Arial, Helvetica, sans-serif !important;
+    opacity: 0;
+}
+span.phone {
+    font-size: 24px;
+   font-family: "Antic Slab", Arial, Helvetica, sans-serif  !important;
+    opacity: 0;
+}
+/******* End FadeIn Tagline ********/
+
+
+.header-v4 #small-nav {
+    border-bottom: 2px solid #acbac7 !important;
+    /* border-bottom-color: #acbac7 !important;  */
+    border-top: 1px solid #acbac7 !important;
+}
+.avada-skin-rev {
+    border-top: none !important;
+    
+}
+    
+
+.mc4wp-form input[type="submit"], form#new_user input[type="submit"]{
+        background: linear-gradient(to top, #D69E5A, #E8C090) repeat scroll 0% 0% #E8C090;
+    padding: 10px 40px;
+    }
+.mc4wp-form input[type="submit"], form#new_user input[type="submit"] {
+        text-shadow: none;
+        box-shadow: none;
+        border-width: 0px;
+        color: #784910;
+        border-color: #784910;
+    }
+.mc4wp-form input[type="submit"], form#new_user input[type="submit"] {
+        border-radius: 2px;
+    }
